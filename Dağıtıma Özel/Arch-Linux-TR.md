@@ -1,10 +1,10 @@
 # İçindekiler
-- [Başlangıç](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#ba%C5%9Flang%C4%B1%C3%A7)  
-  - [AUR Yardımcısı Yükleme](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#aur-yard%C4%B1mc%C4%B1s%C4%B1-y%C3%BCkleme)
-  - [En Uygun Mirror'ları Ayarlama](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#en-uygun-mirrorlar%C4%B1-ayarlama)
-  - [Gerekli Paketleri Yükleme](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#gerekli-paketleri-y%C3%BCkleme)
-  - [Oyun Oynama Paketlerini Yükleme](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#oyun-oynama-paketlerini-y%C3%BCkleme)
-- [Kapanış](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e-%C3%87eviri.md#kapan%C4%B1%C5%9F)
+- [Başlangıç](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#ba%C5%9Flang%C4%B1%C3%A7)  
+  - [AUR Yardımcısı Yükleme](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#aur-yard%C4%B1mc%C4%B1s%C4%B1-y%C3%BCkleme)
+  - [En Uygun Mirror'ları Ayarlama](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#en-uygun-mirrorlar%C4%B1-ayarlama)
+  - [Gerekli Paketleri Yükleme](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#gerekli-paketleri-y%C3%BCkleme)
+  - [Oyun Oynama Paketlerini Yükleme](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#oyun-oynama-paketlerini-y%C3%BCkleme)
+- [Kapanış](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md#kapan%C4%B1%C5%9F)
 # Arch Linux Kurulum Sonrası Rehberi
 Esenlikler. Bu rehberde **Arch Linux kurulumu sonrasında sisteminizi nasıl kullanıma hazır hâle getireceğiniz** hakkında bilgilendirileceksiniz. Hazırsanız, başlayalım!
 # Başlangıç
