@@ -2,7 +2,7 @@
 - [Get Started](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#get-started)  
   - [Installing AUR Helper](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-aur-helper)
   - [Ranking Mirrors](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#ranking-mirrors)
-  - [Installing CachyOS Repositories and Kernel](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing--cachyos-repositories-and-kernel) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/9077599c-872d-4ff0-8cf6-81377867c7e5" />
+  - [Installing CachyOS Repositories and Kernel](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing--cachyos-repositories-and-kernel)
   - [Installing Necessary Packages](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-necessary-packages)
   - [Installing Gaming Packages](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-gaming-packages)
 - [Conclusion](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#conclusion)
@@ -30,4 +30,4 @@ sudo pacman -S unrar unzip ufw flatpak fwupd fastfetch mpv noto-fonts-cjk noto-f
 sudo pacman -S gamemode lib32-gamemode steam lutris discord && flatpak install flathub com.heroicgameslauncher.hgl com.vysp3r.ProtonPlus
 ```
 # Conclusion
-This guide was about Arch Linux post-installation! I hope the guide has been useful. Thank you for reading! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+This guide was about Arch Linux post-installation! I hope the guide has been useful. Thank you for reading!
