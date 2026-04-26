@@ -3,43 +3,43 @@
 - [Using Custom DNS](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#using-custom-dns)
 - [Gaming](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#gaming)
 - [Laptops](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#laptops)
-- [Use Android on Linux](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#use-android-on-linux-) <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />
+- [Use Android on Linux](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#use-android-on-linux)
 - [Disabling NetworkManager-wait-online.service](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#disabling-networkmanager-wait-onlineservice)
-- [Terminal Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#terminal-configuration-) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ae34a1ca-71fe-4bf4-b1df-ddee947edaf5" />
-  - [Fish Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#-fish-configuration) <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a4a4ce43-0e32-406f-951a-8761be2f9c5e" />
+- [Terminal Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#terminal-configuration)
+  - [Fish Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#-fish-configuration)
   - [fastfetch Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#fastfetch-configuration)
 - [Conclusion](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#conclusion)
 ## Türkçe Çeviri 🇹🇷
 > [!NOTE]
 > Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md). Birebir çeviri değildir ama içerik aynıdır.
 ## Distribution-Specific Guides
-- <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> **Arch Linux -** [Arch Linux Post-Installation Guide](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md)
-    - <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/17e40f3d-086e-4979-bd7a-786ce5864c66" /> 🇹🇷 **Türkçe Çevirisi -** [Arch Linux Kurulum Sonrası Rehberi](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md)
+- **Arch Linux -** [Arch Linux Post-Installation Guide](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md)
+    - 🇹🇷 **Türkçe Çevirisi -** [Arch Linux Kurulum Sonrası Rehberi](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md)
 # Using Custom DNS
 ```
 sudo systemctl enable --now systemd-resolved
 ```
 - After enabling `systemd-resolved`, follow the instructions of custom DNS you want to use. My suggestions are listed below:
--  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c80c1141-f1a6-43ce-a153-2566c6a28295" /> [Cloudflare DNS](https://developers.cloudflare.com/1.1.1.1/setup/linux/)
+- [Cloudflare DNS](https://developers.cloudflare.com/1.1.1.1/setup/linux/)
     - **The fastest** but **weak** when it comes to **privacy**.
--  <img width="16" height="25" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/ee74ad8d-6a6f-4359-ab5a-3b009f6bb527" /> [NextDNS](https://nextdns.io/)
-    - **The second fastest** after <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/c80c1141-f1a6-43ce-a153-2566c6a28295" /> Cloudflare but **really good** when it comes to **privacy**.
--  <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/b3b22da0-bb93-4ad8-897d-60023db6aa5c" /> [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
+- [NextDNS](https://nextdns.io/)
+    - **The second fastest** after Cloudflare but **really good** when it comes to **privacy**.
+- [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls)
     - **Not bad** in terms of **speed** but **the best** when it comes to **privacy**. 
 # Gaming
 I have a separate guide about **gaming on Linux**. You can check the guide [from here](https://github.com/cagla-su/Linux-Gaming-Guide).
 # Laptops
 I have a separate optimization guide for **laptops** but **mainly for Thinkpads**. You can check the guide [from here](https://github.com/cagla-su/Thinkpad-Linux-Optimization-Guide).
-# Use Android on Linux <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" />
-I have a separate guide about **using <img width="16" height="25" alt="image-removebg-preview(1)" src="https://github.com/user-attachments/assets/cec27060-1d67-48e1-8f29-a3a5b639fde8" /> Android on Linux**. You can check the guide [from here](https://github.com/cagla-su/Waydroid-Guide).
+# Use Android on Linux
+I have a separate guide about **using Android on Linux**. You can check the guide [from here](https://github.com/cagla-su/Waydroid-Guide).
 # Disabling NetworkManager-wait-online.service
 For a **faster boot time**, disable `NetworkManager-wait-online.service`:
 ```
 sudo systemctl disable NetworkManager-wait-online.service
 ```
-# Terminal Configuration <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/ae34a1ca-71fe-4bf4-b1df-ddee947edaf5" />
-## <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a4a4ce43-0e32-406f-951a-8761be2f9c5e" /> Fish Configuration
-If you would like your terminal to **predict what you are going to type**, I suggest that you use <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/a4a4ce43-0e32-406f-951a-8761be2f9c5e" /> [Fish](https://fishshell.com/) for your terminal.
+# Terminal Configuration
+## Fish Configuration
+If you would like your terminal to **predict what you are going to type**, I suggest that you use [Fish](https://fishshell.com/) for your terminal.
 ```
 sudo pacman -S fish
 ```
@@ -183,4 +183,4 @@ sudo mkdir ~/.config/fastfetch/ && sudo nano ~/.config/fastfetch/config.jsonc
 }
 ```
 # Conclusion
-This guide was about Linux post-installation! I hope the guide has been useful. Thank you for reading! <img width="16" height="25" alt="image" src="https://github.com/user-attachments/assets/60e83c84-d8f8-4035-8052-08aabe1d83a1" />
+This guide was about Linux post-installation! I hope the guide has been useful. Thank you for reading!
