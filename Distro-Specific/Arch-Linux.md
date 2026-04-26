@@ -1,11 +1,10 @@
 # Table of Contents
-- [Get Started](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#get-started)  
-  - [Installing AUR Helper](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-aur-helper)
-  - [Ranking Mirrors](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#ranking-mirrors)
-  - [Installing CachyOS Repositories and Kernel](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing--cachyos-repositories-and-kernel)
-  - [Installing Necessary Packages](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-necessary-packages)
-  - [Installing Gaming Packages](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#installing-gaming-packages)
-- [Conclusion](https://github.com/cagla-su/Arch-Linux-Post-Installation-Guide?tab=readme-ov-file#conclusion)
+- [Get Started](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#get-started)  
+  - [Installing AUR Helper](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#installing-aur-helper)
+  - [Ranking Mirrors](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#ranking-mirrors)
+  - [Installing Necessary Packages](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#installing-necessary-packages)
+  - [Installing Gaming Packages](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#installing-gaming-packages)
+- [Conclusion](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md#conclusion)
 # Get Started
 ## Installing AUR Helper
 Generally, users prefer [yay](https://github.com/Jguer/yay) but I prefer [paru](https://github.com/Morganamilo/paru) because I think it is better.
