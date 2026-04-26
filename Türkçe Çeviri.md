@@ -8,6 +8,8 @@
   - [Fish Yapılandırması](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#fish-yap%C4%B1land%C4%B1rmas%C4%B1)
   - [fastfetch Yapılandırması](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#fastfetch-yap%C4%B1land%C4%B1rmas%C4%B1)
 - [Kapanış](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#kapan%C4%B1%C5%9F)
+# Dağıtıma Özel Rehberler
+- [Arch Linux Kurulum Sonrası Rehberi](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md)
 # Özel DNS Kullanma
 ```
 sudo systemctl enable --now systemd-resolved
