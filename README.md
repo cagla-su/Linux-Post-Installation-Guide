@@ -6,7 +6,7 @@
 - [Use Android on Linux](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#use-android-on-linux)
 - [Disabling NetworkManager-wait-online.service](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#disabling-networkmanager-wait-onlineservice)
 - [Terminal Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#terminal-configuration)
-  - [Fish Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#-fish-configuration)
+  - [Fish Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#fish-configuration)
   - [fastfetch Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#fastfetch-configuration)
 - [Conclusion](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#conclusion)
 ## Türkçe Çeviri 🇹🇷
