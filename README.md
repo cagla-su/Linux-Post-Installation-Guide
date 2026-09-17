@@ -12,9 +12,6 @@
 ## Türkçe Çeviri 🇹🇷
 > [!NOTE]
 > Rehberin [Türkçe çevirisi buradadır](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md). Birebir çeviri değildir ama içerik aynıdır.
-## Distribution-Specific Guides
-- **Arch Linux -** [Arch Linux Post-Installation Guide](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Distro-Specific/Arch-Linux.md)
-    - 🇹🇷 **Türkçe Çevirisi -** [Arch Linux Kurulum Sonrası Rehberi](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/Da%C4%9F%C4%B1t%C4%B1ma%20%C3%96zel/Arch-Linux-TR.md)
 # Using Custom DNS
 ```
 sudo systemctl enable --now systemd-resolved
