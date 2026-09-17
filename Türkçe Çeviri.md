@@ -56,125 +56,122 @@ funcsave fish_greeting
 > [!WARNING]
 > - Fastfetch'in varsayılan teması *genellikle kullanışlıdır* fakat **benim** fastfetch **temamı denemek** isterseniz, **aşağıda bulunan komutları çalıştırmalısınız**.
 > - Aşağıda **kendi** fastfetch temamın bir **örneği** bulunmaktadır. Beğenmediyseniz lütfen **bu adımı atlayın**.
-<img width="722" height="343" alt="image" src="https://github.com/user-attachments/assets/51ac5587-8963-4017-83b2-d78b2aa588b0" />
+<img width="806" height="461" alt="image" src="https://github.com/user-attachments/assets/81756f30-7a60-4d57-bbd1-440f1e9d543f" />
 
 ```
-sudo mkdir ~/.config/fastfetch/ && sudo nano ~/.config/fastfetch/config.jsonc
-```
-```
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 "logo": {
 "type": "small",
 "padding": {
-        "top": 6,
+        "top": 11,
         "left": 3
     },
 "color": {
-"1": "blue",
-"2": "blue"
+"1": "35",
+"2": "35",
 }
 },
-"modules": [
-    // Title
+    "modules": [
+        "break",
+                {
+      "type": "custom",
+      "format": "{#35}╭──────────────────────╮"
+    },
+    "break",
     {
       "type": "title",
-      "format": "{#1}╭───────────────────"
+      "format": "{#35}| {#37}Hardware Information {#35}|"
     },
-    // System Information
-    {
+        "break",
+        {
       "type": "custom",
-      "format": "{#1}│ {#}>^^< System Information >^^<"
+      "format": "{#35}╰──────────────────────╯"
     },
-{
-      "type": "host",
-      "key": "│ Computer Model",
-      "keyColor": "white"
-    },
-    {
-      "type": "os",
-      "key": "│ Operating System",
-      "keyColor": "white"
-    },
-    {
-      "type": "kernel",
-      "key": "│ Kernel",
-      "keyColor": "white"
-    },
-{
-      "type": "packages",
-      "key": "│ Packages",
-      "keyColor": "white"
-    },
-    {
+        "break",
+        {
+            "type": "host",
+            "format": "{5} {1}({2})",
+            "key": "{#31} {#35}> {#31}Motherboard ",
+        },
+        {
+            "type": "cpu",
+            "format": "{1} ({3}) @ {7}",
+            "key": "{#35} {#31}> {#35}Processor ",
+        },
+        {
+            "type": "gpu",
+            "key": "{#31}󰢮 {#35}> {#31}Graphics Card ",
+        },
+        {
+            "type": "memory",
+            "key": "{#35} {#31}> {#35}Memory ",
+        },
+        {
+            "type": "swap",
+            "key": "{#31}󰓡 {#35}> {#31}Swap ",
+        },
+        {
+            "type": "disk",
+            "key": "{#35}󰋊 {#31}> {#35}Storage ",
+        },
+        {
+            "type": "monitor",
+            "key": "{#31} {#35}> {#31}Display ",
+        },
+        "break",
+                        {
       "type": "custom",
-      "format": "{#1}│"
+      "format": "{#35}╭──────────────────────╮"
     },
-    // Desktop
-    {
+    "break",
+        {
+      "type": "title",
+      "format": "{#35}| {#37}Software Information {#35}|"
+        },
+        "break",
+        {
       "type": "custom",
-      "format": "{#1}│ {#}>^^< Desktop >^^<",
+      "format": "{#35}╰──────────────────────╯"
     },
-    {
-      "type": "de",
-      "key": "│ Desktop Environment",
-      "keyColor": "magenta"
-    },
-    {
-      "type": "wm",
-      "key": "│ Window Manager",
-      "keyColor": "magenta"
-    },
-    {
-      "type": "shell",
-      "key": "│ Shell",
-      "keyColor": "magenta"
-    },
-    {
-      "type": "custom",
-      "format": "{#1}│"
-    },
-    // Hardware Information
-    {
-      "type": "custom",
-      "format": "{#1}│ {#}>^^< Hardware Information >^^<",
-    },
-    {
-      "type": "cpu",
-      "key": "│ Processor",
-      "keyColor": "cyan"
-    },
-    {
-      "type": "gpu",
-      "key": "│ Graphics Card",
-      "keyColor": "cyan"
-    },
-    {
-      "type": "memory",
-      "key": "│ Memory",
-      "keyColor": "cyan"
-    },
-    {
-      "type": "disk",
-      "key": "│ Disk",
-      "keyColor": "cyan"
-    },
-    {
-      "type": "custom",
-      "format": "{#1}│"
-    },
-    // Colors
-    {
-      "type": "colors",
-      "key": "{#separator}│",
-      "symbol": "circle"
-    },
-    // Footer
-    {
-      "type": "custom",
-      "format": "{#1}╰───────────────────"
-    }
-  ]
+            "break",
+            {
+            "type": "os",
+            "key": "{#31} {#35}> {#31}Operating System ",
+        },
+        {
+            "type": "kernel",
+            "key": "{#35} {#31}> {#35}Kernel ",
+        },
+        {
+            "type": "packages",
+            "key": "{#31}󰏖 {#35}> {#31}Packages ",
+        },
+        {
+            "type": "wm",
+            "key": "{#35} {#31}> {#35}Window Manager ",
+        },
+        {
+            "type": "wmtheme",
+            "key": "{#31}󰉼 {#35}> {#31}Window Manager Theme ",
+        },
+        {
+            "type": "icons",
+            "key": "{#35}󰀻 {#31}> {#35}Icon Theme ",
+        },
+        {
+            "type": "cursor",
+            "key": "{#31} {#35}> {#31}Cursor Theme ",
+        },
+	{
+            "type": "shell",
+            "key": "{#35} {#31}> {#35}Shell ",
+        },
+
+        {
+            "type": "terminal",
+            "key": "{#31} {#35}> {#31}Terminal ",
+        },
+    ]
 }
 ```
 # Kapanış
