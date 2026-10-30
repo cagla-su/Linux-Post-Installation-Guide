@@ -1,7 +1,6 @@
 # İçindekiler
 - [Özel DNS Kullanma](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#%C3%B6zel-dns-kullanma)
 - [Oyun Oynama](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#oyun-oynama)
-- [Dizüstü Bilgisayarlar](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#diz%C3%BCst%C3%BC-bilgisayarlar)
 - [Linux'ta Android Kullanma](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#linuxta-android-kullanma)
 - [NetworkManager-wait-online.service Hizmetini Devre Dışı Bırakma](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#networkmanager-wait-onlineservice-hizmetini-devre-d%C4%B1%C5%9F%C4%B1-b%C4%B1rakma)
 - [Terminal Yapılandırması](https://github.com/cagla-su/Linux-Post-Installation-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri.md#terminal-yap%C4%B1land%C4%B1rmas%C4%B1)
@@ -21,8 +20,6 @@ sudo systemctl enable --now systemd-resolved
     - **Hız** konusunda **fena değildir** fakat **gizlilik** konusunda **en iyisidir**.
 # Oyun Oynama
 **Linux'ta oyun oynama** hakkında ayrı bir rehberim mevcuttur. Rehbere [buradan ulaşabilirsiniz](https://github.com/cagla-su/Linux-Gaming-Guide/blob/main/T%C3%BCrk%C3%A7e%20%C3%87eviri/linuxta-oyun-oynama-rehberi.md).
-# Dizüstü Bilgisayarlar
-**Dizüstü bilgisayarlar** ama **esas olarak Thinkpad bilgisayarlar için** ayrı bir rehberim mevcuttur. Rehbere [buradan ulaşabilirsiniz](https://github.com/cagla-su/Thinkpad-Linux-Optimization-Guide).
 # Linux'ta Android Kullanma
 **Linux'ta Android kullanma** hakkında ayrı bir rehberim mevcuttur. Rehbere [buradan ulaşabilirsiniz](https://github.com/cagla-su/Waydroid-Guide/blob/main/Waydroid-Rehberi.md).
 # NetworkManager-wait-online.service Hizmetini Devre Dışı Bırakma
@@ -32,10 +29,7 @@ sudo systemctl disable NetworkManager-wait-online.service
 ```
 # Terminal Yapılandırması
 ## Fish Yapılandırması
-Eğer terminalinizin **ne yazacağınızı tahmin etmesini** isterseniz, [Fish](https://fishshell.com/) kullanmanızı tavsiye ederim.
-```
-sudo pacman -S fish
-```
+Eğer terminalinizin **ne yazacağınızı tahmin etmesini** isterseniz, [Fish](https://fishshell.com/) kullanmanızı tavsiye ederim. Paket yöneticinizi kullanarak `fish` paketini kurmakla başlayabilirsiniz. Sonrasında aşağıdaki komutları çalıştırın.
 ```
 chsh -s /usr/bin/fish # komutu çalıştırdıktan sonra bilgisayarınızı yeniden başlatın
 ```
