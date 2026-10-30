@@ -2,7 +2,6 @@
 # Table of Contents
 - [Using Custom DNS](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#using-custom-dns)
 - [Gaming](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#gaming)
-- [Laptops](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#laptops)
 - [Use Android on Linux](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#use-android-on-linux)
 - [Disabling NetworkManager-wait-online.service](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#disabling-networkmanager-wait-onlineservice)
 - [Terminal Configuration](https://github.com/cagla-su/Linux-Post-Installation-Guide?tab=readme-ov-file#terminal-configuration)
@@ -25,8 +24,6 @@ sudo systemctl enable --now systemd-resolved
     - **Not bad** in terms of **speed** but **the best** when it comes to **privacy**. 
 # Gaming
 I have a separate guide about **gaming on Linux**. You can check the guide [from here](https://github.com/cagla-su/Linux-Gaming-Guide).
-# Laptops
-I have a separate optimization guide for **laptops** but **mainly for Thinkpads**. You can check the guide [from here](https://github.com/cagla-su/Thinkpad-Linux-Optimization-Guide).
 # Use Android on Linux
 I have a separate guide about **using Android on Linux**. You can check the guide [from here](https://github.com/cagla-su/Waydroid-Guide).
 # Disabling NetworkManager-wait-online.service
@@ -36,10 +33,7 @@ sudo systemctl disable NetworkManager-wait-online.service
 ```
 # Terminal Configuration
 ## Fish Configuration
-If you would like your terminal to **predict what you are going to type**, I suggest that you use [Fish](https://fishshell.com/) for your terminal.
-```
-sudo pacman -S fish
-```
+If you would like your terminal to **predict what you are going to type**, I suggest that you use [Fish](https://fishshell.com/) for your terminal. Start by installing `fish` using your package manager and execute the commands below.
 ```
 chsh -s /usr/bin/fish # you should reboot after running the command
 ```
